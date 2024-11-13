@@ -17,6 +17,7 @@
   <style>
     body {
       /*background-color: white;*/
+      background-color: rgb(255, 238, 144);
       /*color: black;  设置文字颜色为白色，以便与黑色背景对比 */
       margin: 0; /* 去掉默认的页面边距 */
       padding: 0; /* 去掉默认的页面内边距 */
@@ -128,7 +129,7 @@
 </table>
 <table align="left" width="23.5%" height="3" border="0" cellpadding="0" cellspacing="0" style=" background-color: rgb(144, 238, 144);"></table>
 
-<table width="100%" height="100" border="0" cellpadding="0" cellspacing="0" ></table> 
+<table width="100%" height="160" border="0" cellpadding="0" cellspacing="0" ></table> 
 
 <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0">
   <tr>      
@@ -184,7 +185,48 @@
 </div-->
 
 
-<table width="100%" height="100" border="0" cellpadding="0" cellspacing="0" ></table> 
+<table width="100%" height="240" border="0" cellpadding="0" cellspacing="0" ></table> 
+
+<table align="right" width="76.5%" height="3" border="0" cellpadding="0" cellspacing="0" style="background-color: rgb(144, 238, 144);"></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >  
+  <div align="center" class="english" style="margin-left: 6.5%; margin-right: 76.5%; font-size: 20px; color: white; background-color: rgb(144, 238, 144);">
+ 	<span>Animation</span>
+  </div>
+</table>
+<table align="left" width="23.5%" height="3" border="0" cellpadding="0" cellspacing="0" style=" background-color: rgb(144, 238, 144);"></table>
+
+<table align="center"  width="100%" height="100" border="0" cellpadding="0" cellspacing="0" ></table> 
+
+<table cellpadding="0" style="width: 80%; height: 100%;">
+  <tr>
+    <td style="text-align: right; vertical-align: middle;">
+      <iframe id="bili-radio"
+        src="https://player.bilibili.com/player.html?bvid=BV1di4y1m7pW&cid=586742334&bvid=BV11J41127DF&cid=130096191&page=1&t=0&autoplay=false"
+        scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
+        style="width: 60%; height: auto;"> 
+      </iframe>
+    </td>
+    
+    <td class="fantizizhengwen" align="center">
+      <p>廢棄的工業基地</p>
+	  <p>Lumion 8.5</p>
+	  <p>2022.4.28</p>
+	</td>
+  </tr>
+</table>
+  
+<script>
+  // 根据 iframe 的宽度动态调整高度，保持 16:9 长宽比
+  var iframe = document.getElementById("bili-radio");
+  // 获取 iframe 宽度（以像素为单位）
+  var iframeWidth = iframe.offsetWidth;
+  // 设置高度为宽度的 9/16，保持 16:9 的比例
+  var iframeHeight = iframeWidth * 9 / 16;
+  // 更新 iframe 的高度
+  iframe.style.height = iframeHeight + "px";
+</script>
+
+<table width="100%" height="120" border="0" cellpadding="0" cellspacing="0" ></table> 
 
 <table width="100%" height="30" border="0" cellpadding="0" cellspacing="0" style="background-color: rgb(144, 238, 144);"></table> 
 <table width="100%" border="0" cellpadding="0" cellspacing="0" >  
